@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    color:#e6e6dd;
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+}
+
+.navlinks{
+    margin: 45px;
+    padding: 5px;
+    align-items: center;
+    font-family: sans-serif;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+
+.logo{
+    margin: 10px;
+    margin-left: 30px;
+    width:5cm;
+}
+
+.WeDevlogo{
+    width: 25cm;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.hero{ 
+    margin:0;
+    padding: 15px 20px;
+    color: #292929;
+    background-color: #e6e6dd;
+    text-align: center;
+    height: 25cm;
+}
+
+.hero-subheader{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -150px;
+
+}
+
+.hero-content{
+    font-family: sans-serif;
+    padding: 1px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right:50px ;
+    font-size: 18px;
+}
+
+.project-title{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    background-color: #292929;
+    color:#e6e6dd;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-top: 180px;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 8cm;
+}
+
+.project-back{
+    background-color: #292929;
+    height: 20cm;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 15cm;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.img{
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-bottom: 0;
+    height: 400px;
+    width: 400px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.img:hover{
+    opacity: 0.2;
+}
+
+.logocecconi{
+    margin-left: -450px;
+    margin-top:180px;
+    margin-bottom:650px;
+    height: 60px;
+}
+
+.logolodha{
+    margin-left: -450px;
+    margin-top:180px;
+    margin-bottom:650px;
+    height: 50px;
+}
+
+.logotaj{
+    margin-left:-375px;
+    margin-top:120px;
+    margin-bottom:0px;
+    height: 160px;
+}
+
+.logocecconi, .logolodha, .logotaj:hover{
+    opacity: 10;
+}
+
+.service-back{
+    background-color: #e6e6dd;
+    padding: 100px 50px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.service-title{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 100px;
+    padding-top: 230px;
+    background-color: #e6e6dd;
+    color: #292929;
+}
+
+.services{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 120px;
+    color: #292929;
+    background-color: #e6e6dd;
+    padding: 50px;
+}
+
+.ourp{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #292929;
+    color: #e6e6dd;
+    padding: 100px;
+    margin: 0 -20px;
+}
+
+.ourpback{
+    padding: 50px;
+    background-color: #292929;
+    color: #e6e6dd;
+    margin: 0 -20px;
+    height: 15cm;
+}
+
+.purposecards{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.puposep{
+    display: flex;
+    background-color: #e6e6dd;
+    color: #292929;
+    padding: 20px 24px 30px 24px;
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 10cm;
+    border-radius: 5%;
+    text-align: left;   
+}
+
+.puposep:hover{
+    box-shadow: 5px 10px 70px 10px black;
+}
+
+.contact-title{
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 80px;
+    padding-top: 50px;
+    margin-top: -50px;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: #e6e6dd;
+    height: 15cm;
+}
+
+.contact{
+    font-family: sans-serif;
+    background-color: #e6e6dd;
+    display: flex-end;
+    margin-bottom: 200px;
+    margin-top: -300px;
+}
+
+/* Basic styling for the icons */
+        .icon-link {
+            font-size: 32px;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        /* Instagram Brand Color */
+        .instagram {
+            color: #E1306C;
+        }
+        /* Email / Envelope Color */
+        .email {
+            color: #007bc4;
+        }
+        /* Hover effect */
+        .icon-link:hover {
+            color: #333333;
+        }
