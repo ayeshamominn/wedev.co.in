@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.montserrat-newfont {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 90;
+  font-style: normal;
+}
+
+body{
+    height: 550vh;
+}
+
+.navbar{
+    display: flex;
+    background-color: #26795D;
+    padding: 30px 40px 30px 0;
+    position: fixed;
+    z-index: 5;
+}
+
+.navbar{
+    transition:0.4s;
+}
+
+.logo{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    padding-left: 600px;
+    padding-right: 508px;
+}
+
+button{
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: white;
+    background-color: #26795D;
+    margin-top: 13px;
+}
+
+.hero{
+    display: flex;
+    width: 1520px;
+    height: 22.3cm;
+    object-fit: cover;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.p1h1{
+    color: #26795D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin: 0 0 65px 0;
+    padding-left: 20px;
+}
+
+.p1h2{
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Cardo", serif;
+}
+
+.menubox{
+    background-color: #26795D;
+    padding: 50px 0;
+    margin: 130px 250px 0 250px;
+    color: white;
+    corner-shape: bevel;
+    border-radius: 60px;
+    padding: 60px;
+}
+
+.menu{
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.slider{
+    width:1500px;
+    height:500px;
+    overflow:hidden;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    margin: 100px 20px;
+}
+
+.slides{
+    display:flex;
+    width:400%;
+    animation:slide 16s infinite;
+}
+
+.slides img{
+    width:1500px;
+    height:550px;
+    object-fit:cover;
+}
+
+@keyframes slide{
+
+    0%,20%{
+        transform:translateX(0);
+    }
+
+    20%,40%{
+        transform:translateX(-800px);
+    }
+
+    40%,60%{
+        transform:translateX(-1600px);
+    }
+
+    60%,80%{
+        transform:translateX(-2400px);
+    }
+
+    80%,100%{
+        transform:translateX(0px);
+    }
+
+}
+
+.p2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+}
+
+.p2-1{
+    display: inline-block;
+    text-align: center;
+    padding: 300px 100px 0 200px;
+}
+
+.p2h1{
+    color: #26795D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    margin: 0 0 65px 0;
+    padding-left: 20px;
+}
+
+.p2p{
+    padding-top: -100px;
+    line-height: 25px;
+    font-family: "Cardo", serif;
+}
+
+.p2img{
+    height: 90vh;
+    margin-left: 150px;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    align-items: center;
+    font-family: "Cardo", serif;
+}
+.imgp3{
+    margin: 50px;
+    width: 550px;
+    display: flex;
+    position: relative;
+}
+.finalp{
+    position: absolute;
+    margin: -440px 10px 0px 750px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    font-family: "Cardo", serif;
+}
+
+.cm{
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: center;
+    font-size: 20px
+}
+
+.cm2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.timings{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+    margin: 230px 0px 0px 190px;
+}
+
+.stay{
+    background-color: #26795D;
+    color: white;
+    text-align: center;
+    padding: 90px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 0 0 90px 0;
+}
+
+.footlinks{
+    display: flex;
+    align-content: center;
+    gap: 150px;
+    padding: 100px 0 50px 400px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.r{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-right: 70px;
+    padding-bottom: -30px;
+}
